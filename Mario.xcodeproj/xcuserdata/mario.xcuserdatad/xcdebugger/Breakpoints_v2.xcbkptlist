@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CADAF4B1-D7AA-4C57-910E-E3922B3BC220"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "688C44D7-0419-42F1-A22D-69D95EF955D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Mario-fobbseyhweuwexcgminzkexifjih/SourcePackages/checkouts/turbo-ios/Source/WebView/ScriptMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14627932-75EE-4BC1-8B17-1C4A07736E43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Mario-fobbseyhweuwexcgminzkexifjih/SourcePackages/checkouts/turbo-ios/Source/WebView/WebViewBridge.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "scriptMessageHandlerDidReceiveMessage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9996CF2A-34EE-4FDE-A155-F998A7AA0B57"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Mario-fobbseyhweuwexcgminzkexifjih/SourcePackages/checkouts/turbo-ios/Source/Session/Session.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "webView(_:didProposeVisitToLocation:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EB15D55-2EB7-462A-875F-9EAEBE057695"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mario/Delegates/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "session(_:didProposeVisit:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09B5915E-C87A-4141-92EE-57B68428DAFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/strada-ios/Source/BridgeComponent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "receivedMessage(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D773C2FD-971C-4F42-8B95-27D5C963C69B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/strada-ios/Source/BridgeComponent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "didReceive(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4D24212-7813-4BB5-BAE6-9313B34DA159"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/strada-ios/Source/BridgeComponent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29FF9414-CD2A-4802-967A-DE6D99DE3D02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/strada-ios/Source/BridgeComponent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "viewWillAppear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1357762-7A4B-4D32-83F8-E1ED8F607B83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/strada-ios/Source/BridgeComponent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "viewDidAppear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48B3EF8F-F4CC-4FCB-9EA2-B13D4703577D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/strada-ios/Source/BridgeComponent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "viewWillDisappear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4662524-5937-416F-8C0D-3E701577ECF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/strada-ios/Source/BridgeComponent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "viewDidDisappear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01788A2E-BA01-4BF6-A028-F1339952FD07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "allowsPullToRefresh"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "01788A2E-BA01-4BF6-A028-F1339952FD07 - 45d4c9316d756de7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.init(frame: __C.CGRect) -&gt; Turbo.VisitableView"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "01788A2E-BA01-4BF6-A028-F1339952FD07 - ba8443a40702500b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Turbo.VisitableView&gt;"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "01788A2E-BA01-4BF6-A028-F1339952FD07 - b9435335bf8d2400"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.allowsPullToRefresh.getter : Swift.Bool"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "01788A2E-BA01-4BF6-A028-F1339952FD07 - c411f10606be02e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.allowsPullToRefresh.setter : Swift.Bool"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "01788A2E-BA01-4BF6-A028-F1339952FD07 - 76ed7b9467ed1cd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.allowsPullToRefresh.modify : Swift.Bool"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "01788A2E-BA01-4BF6-A028-F1339952FD07 - 6b663934f9a0928f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.allowsPullToRefresh.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AE4A272-A408-4916-8A59-DD9E1240900D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "isRefreshing"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B91768C-DFAE-4C01-9169-97708D3C185D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "refreshControl"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5B91768C-DFAE-4C01-9169-97708D3C185D - 971ff9170e0f61be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.refreshControl.getter : __C.UIRefreshControl"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "5B91768C-DFAE-4C01-9169-97708D3C185D - 1fae24247a0f476a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIRefreshControl in Turbo.VisitableView.refreshControl.getter : __C.UIRefreshControl"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "5B91768C-DFAE-4C01-9169-97708D3C185D - ad2a7900cd7a0196"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.refreshControl.setter : __C.UIRefreshControl"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5B91768C-DFAE-4C01-9169-97708D3C185D - c63b9347ffc5e9b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.refreshControl.modify : __C.UIRefreshControl"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/VisitableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5B91768C-DFAE-4C01-9169-97708D3C185D - fee3fe05053d8a9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Turbo.VisitableView.refreshControl.modify : __C.UIRefreshControl with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Mario"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario/Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38E24C5C-C99C-45B7-8C91-99A2C06E70C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Mario-bbjjkucearuxmiefoqeygpianbjf/SourcePackages/checkouts/turbo-ios/Source/Visitable/Visitable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "visitableViewDidRequestRefresh()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,26 @@
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all log files
+log/*
+
+# Ignore all temporary files
+tmp/*
+
+# Ignore all build artifacts
+build/*
+
+# Ignore all derived data
+DerivedData/
+
+# Ignore all IDE-related files
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xccheckout
+
+# Ignore all test artifacts
+*.xctestplan
+*.xcresult
+*.xctestrun
+*.xctestrun/
