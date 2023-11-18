@@ -2,7 +2,6 @@ import Foundation
 import Strada
 import UIKit
 
-
 final class NavButtonComponent: BridgeComponent {
     
     override class var name: String { "nav-button" }
@@ -22,7 +21,7 @@ final class NavButtonComponent: BridgeComponent {
         if event == .connect {
             handleConnectEvent(message: message)
             guard let data: MessageData = message.data() else { return }
-            configureBarButton(with: data.title, position: data.position, systemName: data.systemName, message: message)
+            configureBarButton(with: data.title, position: data.position, systemName: data.systemName, color: data.color, message: message)
         }
     }
 
@@ -46,7 +45,8 @@ final class NavButtonComponent: BridgeComponent {
         }
     }
     
-    private func configureBarButton(with title: String, position: String?, systemName: String?, message: Message) {
+    private func configureBarButton(with title: String, position: String?, systemName: String?, color: String?, message: Message) {
+        
         guard let viewController = viewController else { return }
 
         var action: UIAction
@@ -58,15 +58,37 @@ final class NavButtonComponent: BridgeComponent {
 
         if let systemName = systemName {
             let symbolImage = UIImage(systemName: systemName)
-            let customSymbolImage = symbolImage?.withConfiguration(UIImage.SymbolConfiguration(pointSize: 23))
+            
+            let fillColor: UIColor = UIColor(hex: color) ?? .systemBlue
+            
+            let customSymbolImage: UIImage?
+            if let symbolImage = symbolImage {
+                let tintedSymbolImage = symbolImage.withTintColor(fillColor)
+                customSymbolImage = UIGraphicsImageRenderer(size: CGSize(width: 23, height: 20)).image { _ in
+                    tintedSymbolImage.draw(in: CGRect(x: 0, y: 0, width: 23, height: 20))
+                }
+            } else {
+                customSymbolImage = nil
+            }
+            
             let customView = UIImageView(image: customSymbolImage)
+            
+            let topPadding: CGFloat = 5.0
+            
             let button = UIButton(type: .custom)
             button.addSubview(customView)
             button.addAction(action, for: .touchUpInside)
             item = UIBarButtonItem(customView: button)
+            
+            let verticalPadding = (customView.bounds.height - customView.frame.height) / 2 + topPadding
+            customView.frame = CGRect(x: 0, y: verticalPadding, width: customView.bounds.width, height: customView.bounds.height)
         } else {
             item = UIBarButtonItem(title: title, primaryAction: action)
+            if let textColor = UIColor(hex: color) {
+                item.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: textColor], for: .normal)
+            }
         }
+        
         if let position = position {
             if position == "left" {
                 GlobalNavButtonItems.leftBarButtonItems.append(item)
@@ -95,5 +117,26 @@ private extension NavButtonComponent {
         let title: String
         let position: String?
         let systemName: String?
+        let color: String? // New parameter for the fill color
+    }
+}
+
+// Helper extension to convert hex string to UIColor
+extension UIColor {
+    convenience init?(hex: String?) {
+        guard let hex = hex else { return nil }
+
+        var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
+        hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
+
+        var rgb: UInt64 = 0
+
+        guard Scanner(string: hexSanitized).scanHexInt64(&rgb) else { return nil }
+
+        let red = CGFloat((rgb & 0xFF0000) >> 16) / 255.0
+        let green = CGFloat((rgb & 0x00FF00) >> 8) / 255.0
+        let blue = CGFloat(rgb & 0x0000FF) / 255.0
+
+        self.init(red: red, green: green, blue: blue, alpha: 1.0)
     }
 }

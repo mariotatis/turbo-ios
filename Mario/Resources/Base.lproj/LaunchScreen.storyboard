@@ -17,17 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="eXr-0W-qZz">
-                                <rect key="frame" x="-10" y="0.0" width="395" height="818"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lucas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSo-Zq-Jdn">
+                                <rect key="frame" x="77" y="280" width="221" height="87"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="75"/>
+                                <color key="textColor" red="0.2235293984" green="0.50980395079999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eXr-0W-qZz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-50" id="0ii-lD-Iy3"/>
-                            <constraint firstItem="eXr-0W-qZz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-26" id="Dmq-eJ-7C9"/>
-                            <constraint firstItem="eXr-0W-qZz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bgN-n9-62f"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="eXr-0W-qZz" secondAttribute="bottom" constant="-40" id="noJ-x1-qJd"/>
+                            <constraint firstItem="DSo-Zq-Jdn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="230" id="7Oz-kN-zN5"/>
+                            <constraint firstItem="DSo-Zq-Jdn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HO5-kh-2G8"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,7 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SplashIcon" width="1290" height="2796"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
