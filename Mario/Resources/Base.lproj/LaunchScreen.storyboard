@@ -17,18 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lucas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSo-Zq-Jdn">
-                                <rect key="frame" x="77" y="280" width="221" height="87"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="75"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yY0-QA-cPc">
+                                <rect key="frame" x="67" y="226" width="241" height="360"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">A Grateful
+Heart is the
+Best Kind
+to Have...</string>
                                 <color key="textColor" red="0.2235293984" green="0.50980395079999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="DSo-Zq-Jdn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="230" id="7Oz-kN-zN5"/>
-                            <constraint firstItem="DSo-Zq-Jdn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HO5-kh-2G8"/>
+                            <constraint firstItem="yY0-QA-cPc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="176" id="91h-sa-jD7"/>
+                            <constraint firstItem="yY0-QA-cPc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="CbT-Uj-NLT"/>
+                            <constraint firstItem="yY0-QA-cPc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="h4M-pH-Pnq"/>
+                            <constraint firstItem="yY0-QA-cPc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lcC-n0-EZu"/>
                         </constraints>
                     </view>
                 </viewController>
