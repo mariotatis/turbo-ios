@@ -26,7 +26,13 @@ final class NavButtonComponent: BridgeComponent {
     }
 
     private func performAction(message: Message) {
-        reply(with: message)
+        guard let data: MessageData = message.data() else { return }
+        if let action = data.action {
+            print("Action: \(action)")
+        }
+        else{
+            reply(with: message)
+        }
     }
 
     // MARK: Private
@@ -117,11 +123,13 @@ private extension NavButtonComponent {
         let title: String
         let position: String?
         let systemName: String?
-        let color: String? // New parameter for the fill color
+        let color: String?
+        let action: String?
     }
 }
 
-// Helper extension to convert hex string to UIColor
+// MARK: UIColor Converter
+
 extension UIColor {
     convenience init?(hex: String?) {
         guard let hex = hex else { return nil }

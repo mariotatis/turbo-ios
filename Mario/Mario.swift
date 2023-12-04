@@ -1,8 +1,8 @@
 import Foundation
 
 struct Mario {
-    private static let developmentURL = URL(string: "http://localhost:3000")!
-    private static let productionURL  = URL(string: "http://localhost:3000")!
+    private static let developmentURL = URL(string: "https://4262-161-10-84-38.ngrok-free.app/")!
+    private static let productionURL  = URL(string: "https://4262-161-10-84-38.ngrok-free.app/")!
 
     static var baseURL:   URL { productionURL }
     static var homeURL:   URL { baseURL.appendingPathComponent("/") }

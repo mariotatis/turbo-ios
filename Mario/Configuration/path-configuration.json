@@ -1,13 +1,86 @@
 {
-  "settings": {},
+  "settings": {
+    
+  },
   "rules": [
-    { "patterns": ["/refresh_historical_location"], "properties": { "presentation": "refresh", "visitable": false } },
-    { "patterns": ["/recede_historical_location"], "properties": { "presentation": "pop", "visitable": false } },
-    { "patterns": ["/resume_historical_location"], "properties": { "presentation": "none", "visitable": false } },
-    { "patterns": ["^/$"], "properties": { "presentation": "replace-all" } },
-    { "patterns": ["/home"], "properties": { "presentation": "replace-all" } },
-    { "patterns": ["/new$", "/edit$", "/signin$", "/strada-form$"], "properties": { "presentation": "modal" } },
-    { "patterns": ["/numbers$"], "properties": { "view-controller": "numbers" } },
-    { "patterns": ["/posts/5"], "properties": { "view-controller": "numbers" } }
+    {
+      "patterns": [
+        "/refresh_historical_location"
+      ],
+      "properties": {
+        "presentation": "refresh",
+        "visitable": false
+      }
+    },
+    {
+      "patterns": [
+        "/recede_historical_location"
+      ],
+      "properties": {
+        "presentation": "pop",
+        "visitable": false
+      }
+    },
+    {
+      "patterns": [
+        "/resume_historical_location"
+      ],
+      "properties": {
+        "presentation": "none",
+        "visitable": false
+      }
+    },
+    {
+      "patterns": [
+        "^/$"
+      ],
+      "properties": {
+        "presentation": "replace-all"
+      }
+    },
+    {
+      "patterns": [
+        "/home"
+      ],
+      "properties": {
+        "presentation": "replace-all"
+      }
+    },
+    {
+      "patterns": [
+        "/new$",
+        "/edit$",
+        "/signin$",
+        "/strada-form$",
+        "/profile/settings/password"
+      ],
+      "properties": {
+        "presentation": "modal"
+      }
+    },
+    {
+      "patterns": [
+        "/numbers"
+      ],
+      "properties": {
+        "view-controller": "numbers"
+      }
+    },
+    {
+      "patterns": [
+        "/posts/5"
+      ],
+      "properties": {
+        "view-controller": "numbers"
+      }
+    },
+    {
+      "patterns": [
+        "/profile/settings"
+      ],
+      "properties": {
+        "action_": "settings-button-options"
+      }
+    }
   ]
 }

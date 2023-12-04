@@ -7,6 +7,8 @@ class TurboNavigationController : UINavigationController {
     var session: Session!
     var modalSession: Session!
     
+    private var currentTurboWebViewController: TurboWebViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
          navigationBar.scrollEdgeAppearance = .init()
@@ -20,27 +22,26 @@ class TurboNavigationController : UINavigationController {
     }
 
     func route(url: URL, options: VisitOptions, properties: PathProperties) {
-        // This is a simplified version of how you might build out the routing
-        // and navigation functions of your app. In a real app, these would be separate objects
-
-        // Dismiss any modals when receiving a new navigation
-        if presentedViewController != nil {
-            dismiss(animated: true)
+        
+        if let action = properties["action"] as? String {
+            print("here ")
+            print(action)
+            currentTurboWebViewController?.clickElementWithID(action)
         }
+        else {
+            if presentedViewController != nil {
+                dismiss(animated: true)
+            }
+            let viewController = makeViewController(for: url, properties: properties)
+            navigate(to: viewController, action: options.action, properties: properties)
 
-        // - Create view controller appropriate for url/properties
-        // - Navigate to that with the correct presentation
-        let viewController = makeViewController(for: url, properties: properties)
-        navigate(to: viewController, action: options.action, properties: properties)
+            if isVisitable(properties) {
+                visit(viewController: viewController, with: options, modal: isModal(properties))
+            }
 
-        // Initiate the visit with Turbo
-        if isVisitable(properties) {
-            visit(viewController: viewController, with: options, modal: isModal(properties))
-        }
-
-        // Display notice messages natively
-        if let message = noticeMessage(from: url) {
-            presentToast(message.replacingOccurrences(of: "+", with: " "))
+            if let message = noticeMessage(from: url) {
+                presentToast(message.replacingOccurrences(of: "+", with: " "))
+            }
         }
     }
 }
@@ -101,6 +102,11 @@ extension TurboNavigationController {
     }
 
     private func navigate(to viewController: UIViewController, action: VisitAction, properties: PathProperties = [:]) {
+        
+        if let turboWebViewController = viewController as? TurboWebViewController {
+            currentTurboWebViewController = turboWebViewController
+        }
+        
         if isModal(properties) {
             present(UINavigationController(rootViewController: viewController), animated: true)
         } else if isPop(properties) {

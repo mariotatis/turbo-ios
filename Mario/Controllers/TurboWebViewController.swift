@@ -19,11 +19,22 @@ final class TurboWebViewController: VisitableViewController, ErrorPresenter, Bri
 
         self.visitableView.webView?.evaluateJavaScript(script) { (result, error) in
             if let error = error {
-                print("Error evaluating JavaScript: \(error)")
+                //print("Error evaluating JavaScript: \(error)")
             } else if let content = result as? String {
-                print("user_signed_in: \(content)")
+               // print("user_signed_in: \(content)")
             }
         }
+    }
+    
+    func clickElementWithID(_ elementID: String) {
+        let javascriptCode = "document.getElementById('\(elementID)').click();"
+
+        // Evaluate the JavaScript code in the WKWebView
+        self.visitableView.webView?.evaluateJavaScript(javascriptCode, completionHandler: { (result, error) in
+            if let error = error {
+                print("Error performing JavaScript click: \(error)")
+            }
+        })
     }
 
     override func viewDidLoad() {
